@@ -37,4 +37,7 @@ describe('romanNumerals tests', () => {
   it('should return CDIV when sending 404', () => {
     expect(romanNumber(404)).toBe('CDIV');
   });
+  it('should return DXCII when sending 592', () => {
+    expect(romanNumber(592)).toBe('DXCII');
+  });
 });
