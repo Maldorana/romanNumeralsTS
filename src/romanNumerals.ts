@@ -1,9 +1,16 @@
+const numbers = [
+  { arabic: 40, roman: 'XL' },
+  { arabic: 10, roman: 'X' },
+  { arabic: 9, roman: 'IX' },
+  { arabic: 5, roman: 'V' },
+  { arabic: 4, roman: 'IV' },
+  { arabic: 1, roman: 'I' },
+];
+
 export function romanNumber(number: number): string {
-  if (number >= 40) return 'XL' + romanNumber(number - 40);
-  if (number >= 10) return 'X' + romanNumber(number - 10);
-  if (number >= 9) return 'IX';
-  if (number >= 5) return 'V' + romanNumber(number - 5);
-  if (number >= 4) return 'IV';
-  if (number > 0) return 'I' + romanNumber(number - 1);
+  for (const element of numbers) {
+    if (number >= element.arabic)
+      return element.roman + romanNumber(number - element.arabic);
+  }
   return '';
 }
