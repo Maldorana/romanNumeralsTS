@@ -28,4 +28,7 @@ describe('romanNumerals tests', () => {
   it('should return L when sending 50', () => {
     expect(romanNumber(50)).toBe('L');
   });
+  it('should return XCIX when sending 99', () => {
+    expect(romanNumber(99)).toBe('XCIX');
+  });
 });
