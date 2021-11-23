@@ -1,4 +1,5 @@
 const numbers = [
+  { arabic: 1000, roman: 'M' },
   { arabic: 900, roman: 'CM' },
   { arabic: 500, roman: 'D' },
   { arabic: 400, roman: 'CD' },
