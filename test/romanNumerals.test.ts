@@ -13,4 +13,7 @@ describe('romanNumerals tests', () => {
   it('should return V when sending 5', () => {
     expect(romanNumber(5)).toBe('V');
   });
+  it('should return XXXVIII when sending 38', () => {
+    expect(romanNumber(38)).toBe('XXXVIII');
+  });
 });
