@@ -22,7 +22,7 @@ describe('romanNumerals tests', () => {
   it('should return IX when sending 9', () => {
     expect(romanNumber(9)).toBe('IX');
   });
-  it('should return XIX when sending 19', () => {
-    expect(romanNumber(19)).toBe('XIX');
+  it('should return XLIX when sending 49', () => {
+    expect(romanNumber(49)).toBe('XLIX');
   });
 });

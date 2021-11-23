@@ -1,4 +1,5 @@
 export function romanNumber(number: number): string {
+  if (number >= 40) return 'XL' + romanNumber(number - 40);
   if (number >= 10) return 'X' + romanNumber(number - 10);
   if (number >= 9) return 'IX';
   if (number >= 5) return 'V' + romanNumber(number - 5);
