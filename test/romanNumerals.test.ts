@@ -10,4 +10,7 @@ describe('romanNumerals tests', () => {
   it('should return III when sending 3', () => {
     expect(romanNumber(3)).toBe('III');
   });
+  it('should return V when sending 5', () => {
+    expect(romanNumber(5)).toBe('V');
+  });
 });
