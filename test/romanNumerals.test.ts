@@ -19,4 +19,10 @@ describe('romanNumerals tests', () => {
   it('should return IV when sending 4', () => {
     expect(romanNumber(4)).toBe('IV');
   });
+  it('should return IX when sending 9', () => {
+    expect(romanNumber(9)).toBe('IX');
+  });
+  it('should return XIX when sending 19', () => {
+    expect(romanNumber(19)).toBe('XIX');
+  });
 });
