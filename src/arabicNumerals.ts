@@ -4,10 +4,11 @@ const numbers = [
   { arabic: 1, roman: 'I' },
 ];
 
-export function arabicNumber(number: string): number {
+export function arabicNumber(romanNumber: string): number {
   for (const element of numbers) {
-    if (number === element.roman) {
+    if (romanNumber === element.roman) {
       return element.arabic;
     }
   }
+  return 2;
 }
