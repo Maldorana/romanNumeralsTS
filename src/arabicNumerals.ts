@@ -1,14 +1,10 @@
-const numbers = [
-  { arabic: 10, roman: 'X' },
-  { arabic: 5, roman: 'V' },
-  { arabic: 1, roman: 'I' },
-];
+const numbers: any = { X: 10, V: 5, I: 1 };
 
 export function arabicNumber(romanNumber: string): number {
-  for (const element of numbers) {
-    if (romanNumber === element.roman) {
-      return element.arabic;
-    }
+  let total: number = 0;
+
+  for (const element of romanNumber.split('')) {
+    total += numbers[element];
   }
-  return 2;
+  return total;
 }
