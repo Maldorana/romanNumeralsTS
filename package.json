@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit --coverage",
-    "test:watch": "jest --forceExit --coverage --watchAll"
+    "test": "jest --forceExit --coverage --watchAll"
   },
   "keywords": [],
   "author": "",
