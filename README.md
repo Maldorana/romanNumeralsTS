@@ -1,6 +1,7 @@
 # Instructions
 
-Write a program that takes an arabic number and returns it in roman number. Write a program that takes a roman number and returns it in arabic number.
+- Write a program that takes an arabic number and returns it in roman number.
+- Write a program that takes a roman number and returns it in arabic number.
 
 ### Numbers conversion table
 
