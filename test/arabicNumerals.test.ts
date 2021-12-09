@@ -41,5 +41,11 @@ describe('arabicNumerals tests', () => {
     it('should return 592 when entered DXCII', () => {
       expect(arabicNumber('DXCII')).toBe(592);
     });
+    it('should return 936 when entered CMXXXVI', () => {
+      expect(arabicNumber('CMXXXVI')).toBe(936);
+    });
+    it('should return 2999 when entered MMCMXCIX', () => {
+      expect(arabicNumber('MMCMXCIX')).toBe(2999);
+    });
   });
 });
