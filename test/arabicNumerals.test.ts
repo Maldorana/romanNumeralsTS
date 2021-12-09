@@ -29,5 +29,11 @@ describe('arabicNumerals tests', () => {
     it('should return 50 when entered L', () => {
       expect(arabicNumber('L')).toBe(50);
     });
+    it('should return 99 when entered XCIX', () => {
+      expect(arabicNumber('XCIX')).toBe(99);
+    });
+    it('should return 107 when entered CVII', () => {
+      expect(arabicNumber('CVII')).toBe(107);
+    });
   });
 });
