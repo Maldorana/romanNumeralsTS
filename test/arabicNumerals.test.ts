@@ -20,5 +20,8 @@ describe('arabicNumerals tests', () => {
     it('should return 3 when entered III', () => {
       expect(arabicNumber('III')).toBe(3);
     });
+    it('should return 4 when entered IV', () => {
+      expect(arabicNumber('IV')).toBe(4);
+    });
   });
 });
