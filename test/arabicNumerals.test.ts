@@ -35,5 +35,11 @@ describe('arabicNumerals tests', () => {
     it('should return 107 when entered CVII', () => {
       expect(arabicNumber('CVII')).toBe(107);
     });
+    it('should return 404 when entered CDIV', () => {
+      expect(arabicNumber('CDIV')).toBe(404);
+    });
+    it('should return 592 when entered DXCII', () => {
+      expect(arabicNumber('DXCII')).toBe(592);
+    });
   });
 });
