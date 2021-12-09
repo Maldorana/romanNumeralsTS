@@ -23,5 +23,11 @@ describe('arabicNumerals tests', () => {
     it('should return 4 when entered IV', () => {
       expect(arabicNumber('IV')).toBe(4);
     });
+    it('should return 49 when entered XLIX', () => {
+      expect(arabicNumber('XLIX')).toBe(49);
+    });
+    it('should return 50 when entered L', () => {
+      expect(arabicNumber('L')).toBe(50);
+    });
   });
 });

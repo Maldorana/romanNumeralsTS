@@ -1,4 +1,12 @@
-const numbers: any = { X: 10, V: 5, IV: 4, I: 1 };
+const numbers: any = {
+  L: 50,
+  XL: 40,
+  X: 10,
+  IX: 9,
+  V: 5,
+  IV: 4,
+  I: 1,
+};
 
 export function arabicNumber(romanNumber: string): number {
   let total: number = 0;
